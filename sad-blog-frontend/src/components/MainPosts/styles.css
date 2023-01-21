@@ -1,0 +1,35 @@
+.posts {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin: 20px;
+    max-height: 500px;
+    background-color: antiquewhite;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.info-post {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.name-user {
+    display: flex;
+    flex-direction: row;
+}
+
+.content-post {
+    font-size: 16px;
+    margin-top: 10px;
+    overflow: hidden; 
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 10;
+    -webkit-box-orient: vertical; 
+}
+
+.footbar-posts {
+    margin-top: 5px;
+}

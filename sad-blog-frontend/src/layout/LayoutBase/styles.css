@@ -1,0 +1,27 @@
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+}
+
+.navbar {
+    margin-right: 20px;
+}
+.content {
+    margin: 10px;
+
+}
+
+.title-page {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.content-children {
+    display: flex;
+    justify-content: center;
+}
